@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_marginLeft="25dp"
+              android:layout_marginRight="25dp"
+              android:orientation="vertical"
+              android:background="@drawable/shape_dialog_prompt"
+              android:layout_width="match_parent"
+              android:layout_height="113dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="113dp">
+    <TextView
+        android:id="@+id/tv_content"
+        android:text="是否确定退出?"
+        android:includeFontPadding="false"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_submit"
+        android:textColor="@color/app_color"
+        android:textSize="16sp"
+        android:includeFontPadding="false"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/dialog_prompt_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="41dp"
+        android:layout_height="25dp"/>
+
+
+    <TextView
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/tv_submit"
+        android:id="@+id/tv_cancel"
+        android:includeFontPadding="false"
+        android:background="@drawable/dialog_prompt_button"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="21dp"
+        android:textColor="@color/app_color"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="41dp"
+        android:layout_height="25dp"/>
+</RelativeLayout>
+</LinearLayout>

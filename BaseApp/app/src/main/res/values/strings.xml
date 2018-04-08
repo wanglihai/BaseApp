@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Charge</string>
+
+    <string name="tv_progress_dialog">正在处理中,请稍后...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

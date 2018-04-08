@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#FF44546E</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--进度条颜色-->
+    <color name="progress_color">#448fb9</color>
+
+    <!--APP主题色-->
+    <color name="app_color">#448fb9</color>
+
+    <!--提示弹框取消按钮颜色-->
+    <color name="cancel">#bebebe</color>
+    <color name="white">#ffffff</color>
+
+    <!--字体颜色-->
+    <color name="tvf4f4f4">#f4f4f4</color>
+
+
+    <color name="title_bar_back_color">#FF44546E</color>
+</resources>

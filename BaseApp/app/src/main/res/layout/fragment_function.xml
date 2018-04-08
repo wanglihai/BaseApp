@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.znxk.charge.ui.Fragment.FunctionFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="@dimen/sp_text_size_18"
+            android:text="中能移动收费"
+            android:background="@color/title_bar_back_color"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/tv_tiele_bar_center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"/>
+    </LinearLayout>
+</FrameLayout>
